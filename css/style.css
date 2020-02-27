@@ -15,36 +15,33 @@ body {
 .container {
     width: 900px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    padding: 0;
-    font-size: 0;
 }
 /* navigation */
 .site-navigation {
-    display: block;
+    display: inline-block;
     list-style: none;
     margin-top: 76px;
     margin-bottom: 72px;
     padding: 0;
-    text-align: center;    
+    font-size: 0;
 }
 .site-navigation li {
     display: inline-block;
     font-size: 14px;
     text-align: center;
-    width: 113px;
-    height: 42px;        
 }
 .life {
-    margin-left: 142px;
-    margin-right: 88px;
+    margin-left: 164px;
+    margin-right: 120px;
 }
 .photo {
-    margin-right: 56px;
+    margin-right: 104px;
+}
+.music {
+    margin-right: 94px;
 }
 .travel {
-    margin-left: 28px;
-    margin-right: 134px;
+    margin-right: 164px;
 }
 .site-navigation a {
     color: #626262;
@@ -59,6 +56,7 @@ a[href="stuff"] {
 .info {
     list-style: none;
     margin: 0;
+    margin-bottom: 60px;
     padding: 0;
     font-size: 0;
     }
@@ -101,11 +99,10 @@ li>p {
 
 .load {
     display: block;
-    width: 164px;
-    height: 60px;
+    max-width: 164px;
     margin: auto;
     margin-bottom: 70px;
-    padding: 0;
+    padding: 18px 32px;
     font-size: 20px;
     line-height: 24px;
     border: 1px solid rgb(98 98 98);
