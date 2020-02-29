@@ -12,25 +12,34 @@ body {
     color: #626262;
     line-height: 24px;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
     width: 900px;
     margin: 0 auto;
 }
 /* navigation */
-.site-navigation {
-    display: inline-block;
-    list-style: none;
+.menu {
     margin-top: 76px;
     margin-bottom: 72px;
+}
+.site-navigation {
+    list-style: none;
     padding: 0;
     font-size: 0;
+    text-align: center;
 }
 .site-navigation li {
     display: inline-block;
     font-size: 14px;
-    text-align: center;
 }
-.life {
+.site-navigation li:not(:last-child){
+    margin-right: 106px;
+}
+/* .life {
     margin-left: 164px;
     margin-right: 120px;
 }
@@ -42,7 +51,7 @@ body {
 }
 .travel {
     margin-right: 164px;
-}
+} */
 .site-navigation a {
     color: #626262;
     text-decoration: none;
@@ -77,7 +86,6 @@ li>p {
     padding: 0;
 }
 .image-blok{
-    display: block;
     margin-bottom: 30px;
 }
 .section-name {
