@@ -39,19 +39,6 @@ img {
 .site-navigation li:not(:last-child){
     margin-right: 106px;
 }
-/* .life {
-    margin-left: 164px;
-    margin-right: 120px;
-}
-.photo {
-    margin-right: 104px;
-}
-.music {
-    margin-right: 94px;
-}
-.travel {
-    margin-right: 164px;
-} */
 .site-navigation a {
     color: #626262;
     text-decoration: none;
